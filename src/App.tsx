@@ -16,6 +16,8 @@ function App() {
         {/* <Route path='/register' element={<RegisterForm />} /> */}
         <Route path='/register' element={<RegisterForm />} />
         <Route path='/login' element={<LoginPage />} />
+        <Route path='/rates' element={<ExchangerateTable/>} />
+        <Route path='/calculator' element={<ERCalculator/>} />
       </Routes>
 
       </BrowserRouter>
